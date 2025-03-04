@@ -1,0 +1,42 @@
+@keyframes rainbow {
+    0% { color: red; }
+    16% { color: orange; }
+    32% { color: yellow; }
+    48% { color: green; }
+    64% { color: blue; }
+    80% { color: indigo; }
+    100% { color: violet; }
+}
+
+.crab-colorchange {
+
+    animation: rainbow 2s infinite; /* Adjust the duration as needed */
+}
+.crab-chatbar {
+    background-color: #DDDDDD;
+    padding-left: 1vw;
+    font-family: arial narrow;
+    font-size: 4vw;
+    color: grey;
+    border: 0 solid black;
+    border-radius: 0.5vw;
+
+}
+.crab-bar {
+    border-bottom: 1px solid black;
+}
+.crab-startline {
+    border-left: 1px solid black;
+    padding-left: 1vw;
+}
+.crab-imagestyle1 {
+    border-radius: 1vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+    
+    
+}
+.crab-imagestyle2 {
+    border-radius: 1vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
